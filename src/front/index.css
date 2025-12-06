@@ -1,0 +1,56 @@
+.navbar-img{
+    background-image: url("assets/img/Navbar-img.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+     background-position: center  -680px; /* shift image upward */
+    width: 100%;
+    min-height: 110px;
+    
+}
+
+.home-background {
+    
+    background-image: url("assets/img/Home-Page.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    }
+
+.lower-img{
+     background-image: url("assets/img/footer-img.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 10vh;
+    
+}
+
+
+
+
+
+
+
+
+.square-card {
+  width: 45rem;      
+  height: 45rem;     
+  border-radius: 20px;
+  overflow: hidden;
+  background: transparent;
+}
+
+.square-card .card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* center text over the image */
+.square-card .card-img-overlay {
+  color: white;         
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
